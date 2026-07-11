@@ -1,0 +1,5 @@
+project: notary
+target: notary-cryptoservice
+cmds:
+  - cmd: /mayhem/notary-cryptoservice
+    libfuzzer: true

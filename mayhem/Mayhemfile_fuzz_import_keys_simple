@@ -1,0 +1,5 @@
+project: notary
+target: fuzz_import_keys_simple
+cmds:
+  - cmd: /mayhem/fuzz_import_keys_simple
+    libfuzzer: true

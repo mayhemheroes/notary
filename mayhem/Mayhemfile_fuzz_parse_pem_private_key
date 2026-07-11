@@ -1,0 +1,5 @@
+project: notary
+target: fuzz_parse_pem_private_key
+cmds:
+  - cmd: /mayhem/fuzz_parse_pem_private_key
+    libfuzzer: true
